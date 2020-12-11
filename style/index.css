@@ -1,1 +1,39 @@
 /* Add CSS styling here */
+body {
+    padding: 0px 100px 50px 100px;
+}
+header {
+    background-color: lightblue;
+}
+h1 {
+    color: white;
+    font-family: Impact (cursive),'Arial Narrow Bold', sans-serif;
+    font-size: 450%;
+    border: none;
+}
+
+
+
+.portfolioimg {
+    display: flex;
+    border: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.portfolioimg img {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border: 2px solid black;
+    background: lightgray;
+  }
+footer {
+    background-color: grey;
+    color: white;
+    border: none;
+    font-size: 150%;
+    text-align: center;
+    margin: auto;
+}
+
