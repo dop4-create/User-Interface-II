@@ -1,39 +1,116 @@
 /* Add CSS styling here */
 body {
-    padding: 0px 100px 50px 100px;
+    padding: 0px 200px 50px 200px;
+    position: static;
+  
 }
 header {
-    background-color: lightblue;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 200px;
+ 
 }
+
 h1 {
-    color: white;
-    font-family: Impact (cursive),'Arial Narrow Bold', sans-serif;
-    font-size: 450%;
-    border: none;
+    color: #b8b08d;
+    font-family: Helvetica;
+    font-size: 120px;
+    height: 50px;
+    
+   
+}
+
+nav .links {
+    display: flex;
+}
+.link a {
+    color: black;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    border-radius: 30px;
+    border: 10px rgb(240, 8, 8) inset;
+    background-color: rgb(221, 221, 221);
+    width: 100px;
+    height: 0px;
+    text-decoration: none; 
+    margin: 3px;
 }
 
 
+.mainimg div {
+    display: flex;
+    justify-content: space-evenly;
+}
+div .item {
+    display: flex;
+    margin: 5px;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.name {
+    font-size: 25px;
+}
+.projects {
+    height: 20px;
+    width: auto;
+    border: 8px dashed red;
+    padding: 25px;
+    text-align: center;
+    margin: 1px;
+}
+.info {
+    font-size: 25px;
+
+}
+.portfolio {
+    height: 300px;
+    width: 700px;
+}
 
 .portfolioimg {
     display: flex;
     border: none;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
+    /*background-image: url("https://cdn5.vectorstock.com/i/1000x1000/87/64/colorful-happy-holi-background-for-color-festival-vector-24498764.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+   
     
 }
 .portfolioimg img {
-    height: 300px;
-    width: 300px;
-    margin: 20px;
-    border: 2px solid black;
-    background: lightgray;
+    height: 350px;
+    width: 400px;
+    margin: 15px;
+    border: 5px outset;
+    background: rgb(241, 241, 241);
+    padding: 15px;
   }
+  
 footer {
-    background-color: grey;
+    background-color: rgb(216, 15, 15);
     color: white;
     border: none;
     font-size: 150%;
     text-align: center;
     margin: auto;
 }
-
+footer a {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    border-radius: 30px;
+    border: 10px rgb(240, 8, 8) inset;
+    background-color: rgb(221, 221, 221);
+    width: 500px;
+    text-decoration: none; 
+    
+}
